@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', function () {
   function adChange(selectedValue) {
     if (selectedValue === 'default') {
-      localStorage.setItem('ad', 'on')
+      localStorage.setItem('ad', 'off')
     } else if (selectedValue === 'off') {
       localStorage.setItem('ad', 'off')
     }
