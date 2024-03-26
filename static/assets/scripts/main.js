@@ -1,7 +1,7 @@
 // Ads
 document.addEventListener('DOMContentLoaded', function () {
   if (localStorage.getItem('ad') === null) {
-    localStorage.setItem('ad', 'on')
+    localStorage.setItem('ad', 'off')
   }
 
   if (localStorage.getItem('ad') === 'on') {
